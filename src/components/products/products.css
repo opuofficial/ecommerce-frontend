@@ -1,0 +1,21 @@
+.products__count {
+    margin: 15px 0 10px 0;
+    padding-top: 15px;
+    padding: 10px;
+}
+
+
+.products__container {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+
+
+
+.pagination {
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+}

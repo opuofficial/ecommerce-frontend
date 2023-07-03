@@ -1,0 +1,63 @@
+
+.sidebar {
+    width: 270px;
+    padding: 35px 0;
+}
+
+.ant-drawer-content-wrapper {
+    width: auto !important;
+}
+
+
+
+
+.sidebar .hide__sidebar__icon {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+
+
+.sidebar .hide__sidebar__icon .icon  {
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.sidebar .reset__filter__button {
+    margin-top: 30px;
+}
+
+.sidebar  .price__input {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.sidebar  .price__input .ant-select {
+    width: 85px !important;
+}
+
+
+.sidebar .filter__by__rating, .sidebar .ant-radio-group, .sidebar .ant-checkbox-group, .sidebar .filter__by__size, .sidebar .ant-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .sidebar {
+        padding-top: 0;
+        padding: 15px;
+    }
+    
+}
+
+@media only screen and (min-width: 1100px) {
+    .sidebar .hide__sidebar__icon {
+        display: none;
+    }
+}

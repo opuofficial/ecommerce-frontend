@@ -1,0 +1,15 @@
+
+.not__found {
+    text-align: center;
+    margin-top: 50px;
+    min-height: 100vh;
+}
+
+.notfound__heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.not__found .home__icon {
+    margin-right: 10px;
+}
